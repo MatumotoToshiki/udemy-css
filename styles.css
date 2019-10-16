@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  height: 600px;
+  text-align: center;
+}
+
+header .title {
+   padding-top: 200px;
+   padding-bottom: 50px;
+   font-size: 50px;
+}
+
+.nav {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(30, 30, 31, 0.9);
+  color: white;
+  line-height: 60px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.logo {
+ font-size: 30px;
+ padding-left: 40px;
+}
+.menus {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.menus li {
+  list-style: none;
+  padding: 0 30px;
+}
+
+.sub {
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main {
+  text-align: center;
+}
+
+.products {
+  background-color: rgb(246, 246, 246);
+}
+main .title{
+  padding: 50px 0px;;
+  font-size: 30px;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+
+.product {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.product img {
+  width: 100%;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.icons img {
+  width: 50px;
+  margin: 10px;
+}
+
+.social {
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0px;
+}
